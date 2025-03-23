@@ -1,0 +1,67 @@
+aside{
+    width: 20%;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 1);
+    text-align: center;
+    float: right;
+}
+body{
+    background-color: powderblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin:auto;
+    padding: 0%; 
+}
+header{
+    background-color: powderblue;
+    color:black;
+    padding: 14px;
+    text-align: center;
+}
+.hero{
+    background-color: powderblue;
+    padding: 40px;
+    background: powderblue;
+}
+.info, .feature-info{
+    flex:3;
+}
+.profile, .cart{
+    flex: 1;
+    background: powderblue;
+    padding: 15px;
+}
+.container{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+   
+}
+.product{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.buttonAdd{
+    color: green;
+    font-size: 15px;
+    background-color: greenyellow;
+    border: 2px solid green;
+    padding: 5px;
+    border-radius: 5px;
+}
+.buttonRem{
+    color: white;
+    font-size: 15px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 5px; 
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 10px;
+}
